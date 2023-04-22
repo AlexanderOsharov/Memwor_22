@@ -1,4 +1,4 @@
-package com.shurik.memwor_22.content
+package com.shurik.memwor_22.content.artems_work
 
 class Post {
     var text: String = ""

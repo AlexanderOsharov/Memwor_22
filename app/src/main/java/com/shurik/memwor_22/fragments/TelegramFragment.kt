@@ -1,31 +1,15 @@
 package com.shurik.memwor_22.fragments
 
-import android.annotation.SuppressLint
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.webkit.WebView
-import android.webkit.WebViewClient
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.shurik.memwor_22.content.ItemAdapter
-import com.shurik.memwor_22.content.Post
+import com.shurik.memwor_22.content.artems_work.Post
 import com.shurik.memwor_22.content.html.HtmlAdapter
-import com.shurik.memwor_22.content.html.HtmlItem
-import com.shurik.memwor_22.content.html.UrlWithHtml
 import com.shurik.memwor_22.databinding.FragmentTelegramBinding
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
-import org.jsoup.Jsoup
-import org.jsoup.nodes.Document
-import org.jsoup.select.Elements
-import java.io.IOException
-import java.util.regex.Pattern
 
 class TelegramFragment : Fragment(){
 

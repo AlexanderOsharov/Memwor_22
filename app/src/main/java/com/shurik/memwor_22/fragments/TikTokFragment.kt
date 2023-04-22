@@ -13,7 +13,7 @@ import com.android.volley.toolbox.Volley
 import com.shurik.memwor_22.Constants
 import com.shurik.memwor_22.R
 import com.shurik.memwor_22.content.ItemAdapter
-import com.shurik.memwor_22.content.Post
+import com.shurik.memwor_22.content.artems_work.Post
 import org.json.JSONObject
 
 class TikTokFragment : Fragment() {

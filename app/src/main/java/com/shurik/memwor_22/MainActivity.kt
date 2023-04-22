@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private val fragList = listOf(
-        InDevelopmentFragment.newInstance(),
+        VkFragment.newInstance(),
         TelegramFragment.newInstance(),
         InDevelopmentFragment.newInstance(),
         InDevelopmentFragment.newInstance(),

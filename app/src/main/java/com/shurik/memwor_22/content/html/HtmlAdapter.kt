@@ -1,16 +1,13 @@
 package com.shurik.memwor_22.content.html
 
 import android.annotation.SuppressLint
-import com.shurik.memwor_22.R
 
-import android.view.LayoutInflater
 import android.view.MotionEvent
 import android.view.ViewGroup
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.recyclerview.widget.RecyclerView
-import com.shurik.memwor_22.content.Post
 
 class HtmlAdapter(private var urls: List<String>) :
     RecyclerView.Adapter<HtmlAdapter.HtmlViewHolder>() {

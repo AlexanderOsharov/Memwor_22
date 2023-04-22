@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 import com.shurik.memwor_22.R
-import com.shurik.memwor_22.content.Post
+import com.shurik.memwor_22.content.artems_work.Post
 import com.shurik.memwor_22.content.module_adapter.MediaPagerAdapter
 
 class ItemAdapter(private var posts: MutableList<Post>) :

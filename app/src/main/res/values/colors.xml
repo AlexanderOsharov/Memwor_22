@@ -12,4 +12,10 @@
     <color name="myToggleThumbColor">#4CAF50</color>
     <color name="myToggleTrackColor">#B3FFFFFF</color>
     <color name="your_sparkling_color">#FFC0CB</color>
+
+    <color name="grey">#eeefee</color>
+    <color name="red">#CE0700</color>
+    <color name="black_01">#191819</color>
+    <color name="white_01">#f7f6f9</color>
+    <color name="blue">#09001B</color>
 </resources>
